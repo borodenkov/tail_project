@@ -1,0 +1,7 @@
+<html>
+<body>
+{%- for l in request.data.split('\n') -%}
+<img src="{{ l }}">
+{%- endfor -%}
+</body>
+</html>
